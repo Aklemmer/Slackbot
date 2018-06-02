@@ -52,7 +52,7 @@ app.get('/callback', function(req, res) {
     });
 });
 
-app.print("hello
+app.print("hello");
 
 app.use('/store', function(req, res, next) {
   if (req.body.token !== process.env.SLACK_TOKEN) {
